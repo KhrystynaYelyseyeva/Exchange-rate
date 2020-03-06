@@ -1,0 +1,70 @@
+h3 {
+    padding-top: 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.block {
+    position: relative;
+    padding: 20px 15px 20px 20px;
+    border: 1px solid #747474;
+    border-top: 1px solid #487922;
+    background: #ededed;
+    margin: 20px;
+}
+
+.block div {
+    margin-bottom: 20px;
+}
+
+.block .currency-in, .block .currency-out {
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.flex-container {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.flex-item {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+}
+
+.currency-name {
+    font-family: Oswald;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.calc-res {
+    font-size: 1.2rem;
+}
+
+.calc-res li {
+    margin: 10px 0;
+}
